@@ -1,0 +1,43 @@
+.card {
+  max-width: 300px;
+  border-radius: 4px;
+  border: 1px solid #dedede;
+  overflow: hidden;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+
+    .title {
+      font-family: 'SF-Pro-Text-Medium';
+      font-size: 21px;
+      letter-spacing: -0.5px;
+    }
+
+    .description {
+      margin-top: 5px;
+      line-height: 23px;
+      color: #636363;
+    }
+
+    .link {
+      display: flex;
+      color: #1a94e6;
+      margin-top: 20px;
+      margin-right: auto;
+      cursor: pointer;
+
+      &:hover {
+        .icon {
+          transform: translateX(4px);
+        }
+      }
+
+      .icon {
+        margin-left: 10px;
+        transition: 0.11s;
+      }
+    }
+  }
+}

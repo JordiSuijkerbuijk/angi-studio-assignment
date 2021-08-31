@@ -1,0 +1,32 @@
+.usefulLinks {
+  flex-direction: column;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 400px;
+    width: 100%;
+
+    .wrapper {
+      margin-left: 25px;
+      margin-bottom: 20px;
+      width: 50%;
+
+      .title {
+        font-family: 'SF-Pro-Text-Medium';
+      }
+
+      .links {
+        .link {
+          color: #1a94e6;
+          padding: 10px 0;
+
+          &:not(:first-child) {
+            border-top: 1px solid #dedede;
+          }
+        }
+      }
+    }
+  }
+}

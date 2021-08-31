@@ -1,0 +1,30 @@
+.accordion {
+  overflow: hidden;
+  max-height: 17px;
+  transition: max-height 0.3s cubic-bezier(0, 1, 0, 1);
+
+  &.open {
+    max-height: 1000px;
+    transition: max-height 0.6s ease-in-out;
+
+    .title {
+      padding-bottom: 10px;
+      border-bottom: 1px solid #dedede;
+    }
+  }
+
+  .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .accordionItem {
+    padding: 10px 0;
+    margin-left: 15px;
+
+    &:not(:first-child) {
+      border-top: 1px solid #dedede;
+    }
+  }
+}

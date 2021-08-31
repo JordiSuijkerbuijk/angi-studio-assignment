@@ -1,0 +1,128 @@
+[
+  {"title": "Agencies", 
+    "link": [
+      {
+        "title": "Angi Studio Deisgn", 
+        "link": "/"
+      },
+      {
+        "title": "Angi Studio Development", 
+        "link": "/"
+      }
+    ]
+  },
+  {
+    "title": "Development", 
+    "link": [
+      {
+        "title": "Stackoverflow", 
+        "link": "/"
+      },
+      {
+        "title": "CSS Tricks", 
+        "link": "/"
+      },
+      {
+        "title": "Stackexchange", 
+        "link": "/"
+      },
+      {
+        "title": "Devhints.io", 
+        "link": "/"
+      },
+      {
+        "title": "Reddit", 
+        "link": "/"
+      }
+    ]
+  },
+  {
+    "title": "Conferences", 
+    "link": [
+      {
+        "title": "Den Haag", 
+        "link": [
+          {
+            "title": "DevOps41", 
+            "link": "/"
+          }, 
+          {
+            "title": "UxDf", 
+            "link": "/"
+          },
+          {
+            "title": "Elm Europe", 
+            "link": "/"
+          },
+          {
+            "title": "NG_MY", 
+            "link": "/"
+          }
+        ]
+      },
+      {
+        "title": "Amsterdam", 
+        "link": [
+          {
+            "title": "DevOps41", 
+            "link": "/"
+          }, 
+          {
+            "title": "UxDf", 
+            "link": "/"
+          },
+          {
+            "title": "Elm Europe", 
+            "link": "/"
+          },
+          {
+            "title": "NG_MY", 
+            "link": "/"
+          }
+        ]
+      },
+      {
+        "title": "Rotterdam", 
+        "link": [
+          {
+            "title": "DevOps41", 
+            "link": "/"
+          }, 
+          {
+            "title": "UxDf", 
+            "link": "/"
+          },
+          {
+            "title": "Elm Europe", 
+            "link": "/"
+          },
+          {
+            "title": "NG_MY", 
+            "link": "/"
+          }
+        ]
+      },
+      {
+        "title": "Eindhoven", 
+        "link": [
+          {
+            "title": "DevOps41", 
+            "link": "/"
+          }, 
+          {
+            "title": "UxDf", 
+            "link": "/"
+          },
+          {
+            "title": "Elm Europe", 
+            "link": "/"
+          },
+          {
+            "title": "NG_MY", 
+            "link": "/"
+          }
+        ]
+      }
+    ]
+  }
+]
