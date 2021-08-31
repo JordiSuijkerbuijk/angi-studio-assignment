@@ -11,7 +11,7 @@ export default function UsefulLinks({image, title, description, link, linkArray=
 	return (
 		<div className={clsx(['section', style.usefulLinks])}>
       <div className='label'> Useful links </div>
-      <div className='flex'>
+      <div className={clsx(['flex', style.row])}>
         <Card image={image} title={title} description={description} link={link} />
         <div className={style.container}>
           {linkArray && linkArray.map((item, key) => (

@@ -1,8 +1,14 @@
+@import '../../styles/mixins.scss';
+
 .card {
   max-width: 300px;
   border-radius: 4px;
   border: 1px solid #dedede;
   overflow: hidden;
+
+  @include mq_down($px: 900px) {
+    max-width: 100%;
+  }
 
   .content {
     display: flex;

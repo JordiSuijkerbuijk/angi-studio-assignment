@@ -9,7 +9,7 @@ import stockImage from '../public/images/stockImage.png'
 
 import cardLinkArray from '../public/data/cardLinks.json'
 
-import style from '../styles/index.module.scss'
+import style from './index.module.scss'
 
 export default function Home() {
   const cardTitle = "ReactJS Development";

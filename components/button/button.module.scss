@@ -1,11 +1,18 @@
+@import '../../styles/mixins.scss';
+
 .button {
   padding: 0 35px;
   margin-left: 25px;
-  background-color: #179CE4;
+  background-color: #179ce4;
   color: #fff;
   border-radius: 4px;
   border: none;
   white-space: nowrap;
   font-family: 'SF-Pro-Text-Bold';
   font-size: 14px;
+
+  @include mq_down($px: 900px) {
+    padding: 0 25px;
+    margin-left: 10px;
+  }
 }

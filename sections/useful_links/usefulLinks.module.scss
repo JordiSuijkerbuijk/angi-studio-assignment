@@ -1,17 +1,36 @@
+@import '../../styles/mixins.scss';
+
 .usefulLinks {
   flex-direction: column;
+
+  .row {
+    @include mq_down($px: 900px) {
+      flex-direction: column;
+    }
+  }
 
   .container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    max-height: 400px;
     width: 100%;
 
+    @include mq_up($px: 900px) {
+      max-height: 400px;
+    }
+
     .wrapper {
-      margin-left: 25px;
+      padding-left: 25px;
       margin-bottom: 20px;
       width: 50%;
+
+      @include mq_down($px: 900px) {
+        margin-top: 25px;
+        margin-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 25px;
+        width: 100%;
+      }
 
       .title {
         font-family: 'SF-Pro-Text-Medium';
